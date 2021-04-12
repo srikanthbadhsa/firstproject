@@ -8,6 +8,8 @@ public class SecondClass {
 	public void secondClassMethod()
 	{
 		System.out.println("This is second class MeTHOD");
+		System.out.println("This is second class MeTHOD");
+
 	}
 	
 
