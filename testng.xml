@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+  <listener class-name="testng.Listeners"/>
+  </listeners>
+  <test name="testngExample" parallel="classes" thread-count="3">
+   <parameter name="names" value="vinodkumar"/>
+  <parameter name="name1" value="vinod"/>
+  
+  
+  <classes>
+      <class name="testng.AnnotationsExample"/>
+     
+       <class name="testng.SecondClass"/>
+   </classes>
+  </test> 
+</suite> 
